@@ -6,7 +6,11 @@ Here's a quick primer on how to take calibration frames. These are pretty easy t
 ## Flats 
 Flats correct for dust on your optical train and vignetting from the telescope and your optics. 
 Take about 25-30 of these. Ask around! Everyone does them differently...
-There are a few good methods to take them. An easy method for beginners is to move the telescope so it's pointing at the zenith and then use a rubber band to secure a white t-shirt to the front of the telescope. Then, put a white image on your phone screen at max brightness and place it on the telescope. Keep the settings the same as when you took the light frames, but lower the exposure until the histogram fits in the middle.
+Flat frames correct for dust in the optical train and vignetting from the telescope. There are a few good methods to take them. An easy method for beginners is to move the telescope so it's pointing at the zenith and then use a rubber band to secure a white t-shirt to the front of the telescope. Then, put a white image on your phone or tablet screen at max brightness and place it on the telescope. Keep the settings the same as when you took the light frames, but lower the exposure until the hump is in the middle of the histogram. Flats should ideally be taken directly after the imaging session so dust particles don't move around before taking them.
+
+Another method that many people use to take flats is an LED tracing panel or flats panel. You can get a cheap LED tracing panel online or get a flats panel for an automated setup. An LED tracing panel can be more convenient if you don't want to always use a phone or tablet screen. Some people, especially those with big telescopes, opt for sky flats. They are taken by covering the telescope with a white t shirt and pointing the telescope at an evenly lit patch of sky during the day.
+
+A common issue that can happen with flats is if the refresh rate of whatever light source you're using interferes with the flat exposure. This can appear as lines going across the camera sensor and can be fixed by lowering the brightness of the light source and increasing the exposure time of the camera. 
 ![image](https://github.com/observational-dev/oawiki/assets/31824839/8a6c365e-8ffc-4d86-b397-a845ba2f7c75)
 
 If you took them correctly, your flat frame will look something like this:
